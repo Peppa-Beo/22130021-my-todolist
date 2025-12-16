@@ -30,7 +30,7 @@ export default function Search() {
                 onChange={(e) => handleSearch(e.target.value)}
                 defaultValue={searchParams.get("search")?.toString()}
                 style={{
-                    width: "100%",
+                    width: "96%",
                     padding: "10px",
                     border: "1px solid #ddd",
                     borderRadius: "4px",
