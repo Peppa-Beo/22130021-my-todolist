@@ -1,0 +1,16 @@
+# 1. Thư viện (Rất nặng)
+/node_modules
+
+# 2. Build của Next.js (File tạm)
+/.next/
+/out/
+/build
+
+# 3. Bảo mật (QUAN TRỌNG NHẤT)
+.env
+.env.local
+.env.production
+
+# 4. File hệ thống linh tinh
+.DS_Store
+*.log
